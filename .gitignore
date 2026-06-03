@@ -1,10 +1,12 @@
 venv/
+.venv/
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
+build/
+dist/
 
 # input source files and output
 input/
-kanji.csv
-kanji_cleaned.csv
-kanji_with_roots.csv
+output/
